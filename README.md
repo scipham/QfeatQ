@@ -1,6 +1,6 @@
 # QfeatQ
 
-Quantum Feature aQuisition framework based on https://github.com/momohuang/predicting-quantum-properties
+Quantum feature aQuisition framework based on https://github.com/momohuang/predicting-quantum-properties
 
 ## Usage
 Minimal Experiment Controller file:
