@@ -16,7 +16,7 @@ include("QfeatQ.jl")
 
 function mainExperimentController(system_size, subsystem_dim, number_of_measurements,  observableFile="observables.txt")
 
-    omegaPhase, omegaPhaseTilde, genPauliMat, genPauliTab,genPauliTraces, genCliffordMat, genCliffordTab, genCliffordOrder, U,P = QfeatQ.initialize(system_size, subsystem_dim)
+    QfeatQ.initialize(system_size, subsystem_dim)
     
     #Generate states to simulate on:
     tableauStateMemory = QfeatQ.state_generation_Controller("rp-stab", system_size, subsystem_dim, "systemState.txt")
