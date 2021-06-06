@@ -2,6 +2,7 @@
 
 Quantum feature aQuisition framework based on https://github.com/momohuang/predicting-quantum-properties
 
+![](Banner.png)
 ## Usage
 Minimal Experiment Controller file:
 
