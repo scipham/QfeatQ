@@ -62,7 +62,8 @@ mainExperimentController(3, 4, 400, string("observables.txt"))
 </li>
   <li>
 Basic Observable file:
-```
+      
+```txt
 [system_size] [subsystem_dim]
 [Real Weight] [Imag. Weight] [Phase (Power)] [qn1]|X[xp1]Z[zp1] [qn2]|X[xp2]Z[zp2] ........
 .
