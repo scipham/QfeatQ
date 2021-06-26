@@ -6,14 +6,21 @@ Quantum feature aQuisition framework
 ## Usage
 
 ### Create Experiments from Example Experiments
--> Use experiments in examples folder
+<ul>
+<li>Use experiments in examples folder</li>
+</ul> 
 
 ### Create Experiments from Basic Simulation Templates:
--> Use simulation & observable templates in templates folder
--> 4 options: (local measurements or global measurements) and (stabilizer representation or matrix/array representation)
+<ul>
+<li> Use simulation & observable templates in templates folder</li>
+<li> 4 options: (local measurements or global measurements) and (stabilizer representation or matrix/array representation)/li>
+</ul> 
 
-### Create Experiments from Scratch: 
-Minimal Experiment Controller file:
+### Create Experiments from Scratch:
+
+<ul>
+<li>Create Custom experiments/simulations/tests with core framework.</li>
+<li> Minimal Experiment Controller file:
 
 ```julia
 using LinearAlgebra
@@ -52,7 +59,8 @@ end
 mainExperimentController(3, 4, 400, string("observables.txt"))
 
 ```
-
+</li>
+  <li>
 Basic Observable file:
 ```
 [system_size] [subsystem_dim]
@@ -63,5 +71,9 @@ Basic Observable file:
 .
 .
 ```
+</li>
+</ul> 
+
+
 
 Based on https://github.com/momohuang/predicting-quantum-properties
