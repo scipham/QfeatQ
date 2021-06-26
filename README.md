@@ -1,9 +1,18 @@
 # QfeatQ
 
-Quantum feature aQuisition framework based on https://github.com/momohuang/predicting-quantum-properties
+Quantum feature aQuisition framework
 
 ![](Banner.png)
 ## Usage
+
+### Create Experiments from Example Experiments
+-> Use experiments in examples folder
+
+### Create Experiments from Basic Simulation Templates:
+-> Use simulation & observable templates in templates folder
+-> 4 options: (local measurements or global measurements) and (stabilizer representation or matrix/array representation)
+
+### Create Experiments from Scratch: 
 Minimal Experiment Controller file:
 
 ```julia
@@ -43,3 +52,16 @@ end
 mainExperimentController(3, 4, 400, string("observables.txt"))
 
 ```
+
+Basic Observable file:
+```
+[system_size] [subsystem_dim]
+[Real Weight] [Imag. Weight] [Phase (Power)] [qn1]|X[xp1]Z[zp1] [qn2]|X[xp2]Z[zp2] ........
+.
+.
+.
+.
+.
+```
+
+Based on https://github.com/momohuang/predicting-quantum-properties
