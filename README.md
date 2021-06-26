@@ -13,7 +13,7 @@ Quantum feature aQuisition framework
 ### Create Experiments from Basic Simulation Templates:
 <ul>
 <li> Use simulation & observable templates in templates folder</li>
-<li> 4 options: (local measurements or global measurements) and (stabilizer representation or matrix/array representation)/li>
+<li> 4 options: (local measurements or global measurements) and (stabilizer representation or matrix/array representation) </li>
 </ul> 
 
 ### Create Experiments from Scratch:
